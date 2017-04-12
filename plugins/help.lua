@@ -157,7 +157,7 @@ Placeholders:
 `$id`: _will be replaced with the id_
 `$title`: _will be replaced with the group title_
 `$surname`: _will be replaced by the user's last name_
-`$rules`: _will be replaced by a link to the rules of the group. Please read_ [here](https://telegram.me/GroupButler_beta/26) _how to use it, or you will get an error for sure_
+`$rules`: _will be replaced by a link to the rules of the group. Please read_ [here] _how to use it, or you will get an error for sure_
 *Note*: `$name`, `$surname`, and `$title` may not work properly within markdown markup.
 
 *GIF/sticker as welcome message*
@@ -290,7 +290,7 @@ All the events, by default, are *not logged*. Admins can choose which events to 
 To pair a channel with a group, the *channel creator* must [add the bot to the channel administrators] (otherwise it won't be able to post), and send in the channel this command:
 `/setlog`
 Then, an admin of the group must forward in the group the message ("`/setlog`") sent in the channel. *Done*!
-(you can find a video-tutorial [here](https://telegram.me/GB_tutorials/8))
+(you can find a video-tutorial [here])
 
 A channel can be used as log by different groups.
 To change your log channel, simply repeat this process with another channel.
