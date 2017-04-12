@@ -8,7 +8,7 @@ local function get_helped_string(key)
 	if key == 'start' then
 		return _([[
 Hello %s 👋🏼, nice to meet you!
-I'm Group Butler, the first administration bot using the official Bot API.
+I'm miniultra, the first administration bot using the official Bot API.
 
 *I can do a lot of cool stuffs*, here's a short list:
 • I can *kick or ban* users
@@ -52,7 +52,7 @@ Also, every member of the realm can take actions in groups where he is not admin
 		return _([[
 This bot works only in supergroups.
 
-To work properly, [it needs to be admin in your group](https://telegram.me/GroupButler_ch/104), so it can kick or ban people if needed.
+To work properly, [it needs to be admin in your group], so it can kick or ban people if needed.
 Only the group owner can promote it :)
 
 You can use `/, ! or #` to trigger a command.
@@ -96,8 +96,6 @@ Admins need to give their consense to receive reports from users, with `/mysetti
 • `/setrules [group rules]`: set the new regulation for the group (the old will be overwritten).
 • `/setrules -`: delete the current rules.
 
-*Note*: the markdown is supported. If the text sent breaks the markdown, the bot will notify that something is wrong.
-For a correct use of the markdown, check [this post](https://telegram.me/GroupButler_ch/46) in the channel
 
 • `/setlink [link|-]`: set the group link, so it can be re-called by other admins, or unset it.
 If you are going to use it in a public supergroup, you do not need to append the group link. Just send `/setlink`
@@ -236,8 +234,7 @@ So with `/pin` you can generate a message to pin, and edit it how many times you
 
 *Note*: translators are volunteers, so I can't ensure the correctness of all the translations. And I can't force them to translate the new strings after each update (not translated strings are in english).
 
-Anyway, translations are open to everyone. If you want to translate the bot, see an [information](https://github.com/RememberTheAir/GroupButler#translators) on GitHub.
-Ask in the English /group for the `.po` file of your language.
+
 
 *Special characters*
 
@@ -290,7 +287,7 @@ A log channel is a _(private)_ channel where the bot will record all the importa
 If you want to use this feature, you need to pair your group with a channel with the commands described below.
 All the events, by default, are *not logged*. Admins can choose which events to log from the `/config` menu -> `log channel` button.
 
-To pair a channel with a group, the *channel creator* must [add the bot to the channel administrators](telegram.me/gb_tutorials/4) (otherwise it won't be able to post), and send in the channel this command:
+To pair a channel with a group, the *channel creator* must [add the bot to the channel administrators] (otherwise it won't be able to post), and send in the channel this command:
 `/setlog`
 Then, an admin of the group must forward in the group the message ("`/setlog`") sent in the channel. *Done*!
 (you can find a video-tutorial [here](https://telegram.me/GB_tutorials/8))
